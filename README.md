@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="meikai.png" alt="Meikai" width="100"/>
+  <img src="meikai.png" alt="Meikai" width="160"/>
 </p>
 
 # Meikai — Mathematical LaTeX Transcription Studio
@@ -9,6 +9,10 @@
 > **The solution:** Snap or paste any math image → Meikai converts it to LaTeX instantly → paste the text into any AI, completely bypassing image limits.
 
 Meikai is a lightweight Linux desktop tool powered by **Gemini Vision** that turns images and PDFs of mathematical content into clean LaTeX code — in seconds.
+
+> [!NOTE]
+> **What does *Meikai* mean?**  
+> In Japanese, **Meikai** (**明快** / **明解**, *めいかい*) translates to *clear, lucid, straightforward,* or *a clear explanation/solution*. The name reflects the app's core mission: taking complex, blurry, or handwritten math problems and turning them into crystal-clear, unambiguous LaTeX code.
 
 ---
 
