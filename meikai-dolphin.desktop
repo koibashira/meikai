@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+MimeType=image/png;image/jpeg;image/webp;image/bmp;image/tiff;image/gif;application/pdf;
+Actions=open_meikai;
+X-KDE-Priority=TopLevel
+
+[Desktop Action open_meikai]
+Name=Open with Meikai (LaTeX Transcription)
+Icon=meikai
+Exec=/home/mit/Projects/antigravity-manager/meikai/meikai.sh %F

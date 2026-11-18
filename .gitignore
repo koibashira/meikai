@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# Node / MathJax renderer
+meikai/math_renderer/node_modules/
+
+# Environment & secrets
+.env
+*.env
+api_keys.json
+
+# Qt / app cache
+.cache/
+*.qss~
+
+# Source assets not needed in repo
+meikai-original.png
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
