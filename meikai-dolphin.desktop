@@ -9,4 +9,4 @@ X-KDE-Priority=TopLevel
 [Desktop Action open_meikai]
 Name=Open with Meikai (LaTeX Transcription)
 Icon=meikai
-Exec=/home/mit/Projects/antigravity-manager/meikai/meikai.sh %F
+Exec=/home/mit/.local/share/custom-user-files/meikai/meikai.sh %F

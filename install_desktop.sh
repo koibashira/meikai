@@ -33,7 +33,7 @@ echo "  ✔ Installed Dolphin service menu to ~/.local/share/kio/servicemenus/me
 
 # Icons
 if [ -f "$ICON_SRC" ]; then
-    for SIZE in 16 24 32 48 64 96 128 256; do
+    for SIZE in 16 24 32 48 64 96 128 256 512; do
         ICON_DIR="$HOME/.local/share/icons/hicolor/${SIZE}x${SIZE}/apps"
         mkdir -p "$ICON_DIR"
         if command -v convert &>/dev/null; then
@@ -79,6 +79,11 @@ if os.path.isfile(path):
         subprocess.run(["qdbus6", "org.kde.KWin", "/KWin", "reconfigure"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 ' 2>/dev/null || true
 fi
+
+# ── Visual Folder Recognition (XDG Desktop Icon Integration) ──
+touch "$SCRIPT_DIR/.directory"
+printf '[Desktop Entry]\nIcon=./meikai.png\n' > "$SCRIPT_DIR/.directory" 2>/dev/null
+echo "✔ Installed .directory icon file to $SCRIPT_DIR/.directory"
 
 echo ""
 echo "✔ Installation complete! Configured for: $SCRIPT_DIR"
